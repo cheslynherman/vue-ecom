@@ -8,11 +8,12 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-
+import NavBarComp from '@/components/NavBar-comp.vue'
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    HelloWorld,
+    NavBarComp
   }
 }
 </script>
