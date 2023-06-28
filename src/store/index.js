@@ -16,15 +16,15 @@ export default createStore({
   },
 
   actions: {
-    getTutorials: async (context) => {
-      fetch("http://localhost:3000/products")
-        .then((res) => res.json())
-        .then((products) => context.commit("setProducts", products));
+    getProducts: async (context) => {
+      fetch ("http://localhost:3000/products")
+      .then((res) => res.json())
+      .then((products) => context.commit("setProducts", products));
     },
-    getTutorial: async (context, id) => {
+    getProduct: async (context, id) => {
       fetch ("http://localhost:3000/products/" + id)
-      .then ((res) => res.json ())
-      .then ((product) => context.commit("setTutorial", product));
+      .then ((res) => res.json())
+      .then ((product) => context.commit ("setProduct", product));
     }
   },
 });

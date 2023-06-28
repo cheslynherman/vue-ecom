@@ -1,5 +1,5 @@
 {
-    "items": [
+    "products": [
         {
             "id": 1,
             "name": "PennyWise The Clown Costume",
@@ -19,7 +19,7 @@
             "name": "Captain America Costume",
             "quantity": 4,
             "price": 9500,
-            "image_url": "https://i.postimg.cc/BvMnmGZ4/daniel-lincoln-EZNEEg-WSV3k-unsplash.jpg"
+            "image_url": "https://i.postimg.cc/3JSjNCqz/pexels-duren-williams-10682514.jpg"
         }
     ]
 }
