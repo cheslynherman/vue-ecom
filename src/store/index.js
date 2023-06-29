@@ -37,7 +37,7 @@ export default createStore({
     //     context.commit('setProducts', products)
     //     console.log(products)
     //   } else{
-    //     console.log("shiiit")
+    //   
     //   }
     // } ,
     getProduct: async (context, id) => {

@@ -4,7 +4,7 @@
     <div class="founderImage">
       <img
         src="https://i.postimg.cc/1ts3jCbs/C12-Cheslyn-Herman-1.jpg"
-        alt="Founder"
+        alt="Founder" class="founderImg"
       />
     </div>
     <div class="founderText">
@@ -25,7 +25,7 @@
       <div class="card">
         <img
           src="https://i.postimg.cc/44QMjKfs/a61e0923-3516-466d-8262-7d06676dbf76.jpg"
-          alt="Taahirah"
+          alt="Taahirah" class="cardImg"
         />
         <h2 class="text">Taahirah Ismail</h2>
         <p class="text">
@@ -38,7 +38,7 @@
       <div class="card">
         <img
           src="https://i.postimg.cc/GtK5Df7H/4d17b286-2338-4458-b799-5700b2b7b508.jpg"
-          alt="Timothy"
+          alt="Timothy" class="cardImg"
         />
         <h2 class="text">Timothy Barry</h2>
         <p class="text">
@@ -50,7 +50,7 @@
       <div class="card">
         <img
           src="https://i.postimg.cc/8Pk3G1cW/673e7e8d-254c-4c1f-9651-fd7f4d5b9e37.jpg"
-          alt="Caryn"
+          alt="Caryn" class="cardImg"
         />
         <h2 class="text">Caryn Lodewyk</h2>
         <p class="text">
@@ -61,7 +61,7 @@
         </p>
       </div>
       <div class="card">
-        <img src="https://i.postimg.cc/YqXPqJLP/IMG-0310.jpg" alt="Ethan" />
+        <img src="https://i.postimg.cc/YqXPqJLP/IMG-0310.jpg" alt="Ethan" class="cardImg"/>
         <h2 class="text">Ethan Lesar</h2>
         <p class="text">
           "I cannot speak highly enough of The Quirky Studio. Their attention to
@@ -73,7 +73,7 @@
       <div class="card">
         <img
           src="https://i.postimg.cc/Rqr7Cp6B/97ac8d55-f366-4424-b10e-698cc1b8a1ce.jpg"
-          alt="Lyle"
+          alt="Lyle" class="cardImg"
         />
         <h2 class="text">Lyle Brown</h2>
         <p class="text">
@@ -88,5 +88,37 @@
 </template>
 
 <style scoped>
+.about {
+  color: #b20600;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+.founderImg {
+  height: 50vh;
+}
+ .card {
+  color: #b20600;
+  padding: 10px;
+  margin: 30px;
+  width: 30%;
+  border-radius: 50px;
+  height: 60vh;
+  align-items: center;
+}
+.cardImg {
+  height: 80%;
+  width: 60%;
+  border-radius: 50px;
+}
+.cardSection {
+  display: flex;
+  margin: auto;
 
+}
+
+.text {
+  padding: 10px;
+}
 </style>

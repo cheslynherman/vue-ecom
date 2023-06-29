@@ -91,7 +91,7 @@ img {
   width: 30%;
   border-radius: 50px;
   height: 60vh;
-  /* display: flex; */
+
   align-items: center;
 }
 
