@@ -5,21 +5,24 @@
             "name": "PennyWise The Clown Costume",
             "quantity": 5,
             "price": 9000,
-            "image_url": "https://i.postimg.cc/yNZtQmyj/pexels-wilson-vitorino-3230473.jpg"
+            "image_url": "https://i.postimg.cc/yNZtQmyj/pexels-wilson-vitorino-3230473.jpg",
+            "categories": "Horror"
         },
         {
             "id": 2,
             "name": "Joker Costume",
             "quantity": 7,
             "price": 8000,
-            "image_url": "https://i.postimg.cc/BvMnmGZ4/daniel-lincoln-EZNEEg-WSV3k-unsplash.jpg"
+            "image_url": "https://i.postimg.cc/BvMnmGZ4/daniel-lincoln-EZNEEg-WSV3k-unsplash.jpg",
+            "categories": "Heroes and Villains"
         },
         {
             "id": 3,
             "name": "Captain America Costume",
             "quantity": 4,
             "price": 9500,
-            "image_url": "https://i.postimg.cc/3JSjNCqz/pexels-duren-williams-10682514.jpg"
+            "image_url": "https://i.postimg.cc/3JSjNCqz/pexels-duren-williams-10682514.jpg",
+            "categories": "Heroes and Villains"
         }
     ]
 }
