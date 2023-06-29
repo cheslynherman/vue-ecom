@@ -115,7 +115,6 @@
 .cardSection {
   display: flex;
   margin: auto;
-
 }
 
 .text {
