@@ -8,8 +8,9 @@ export default createStore({
 
   mutations: {
     setProducts: (state, products) => {
-      state.products = products;
+      state.products = products
     },
+ 
     setProduct: (state, product) => {
       state.product = product;
     },
@@ -26,12 +27,21 @@ export default createStore({
 
   actions: {
     getProducts: async (context) => {
-      fetch ("http://localhost:3000/products")
+      fetch ("https://cheslynherman.github.io/data/db.json")
       .then((res) => res.json())
-      .then((products) => context.commit("setProducts", products));
+      .then((products) => context.commit("setProducts",  products))
     },
+    // async getProducts(context) {
+    //   let {products} = (await ( fetch("https://cheslynherman.github.io/data/db.json"))).json()
+    //   if(products) {
+    //     context.commit('setProducts', products)
+    //     console.log(products)
+    //   } else{
+    //     console.log("shiiit")
+    //   }
+    // } ,
     getProduct: async (context, id) => {
-      fetch ("http://localhost:3000/products/" + id)
+      fetch ("https://cheslynherman.github.io/data/db.json/" + id)
       .then ((res) => res.json())
       .then ((product) => context.commit ("setProduct", product));
     }
