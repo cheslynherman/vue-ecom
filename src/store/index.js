@@ -43,7 +43,13 @@ export default createStore({
     getProduct: async (context, id) => {
       fetch ("https://cheslynherman.github.io/data/db.json/" + id)
       .then ((res) => res.json())
-      .then ((product) => context.commit ("setProduct", product));
+      .then ((product) => {let prod; 
+      product.forEach (prod => {
+        if (prod.id==id){
+          product = prod
+        }
+      });
+    context.commit("setProduct", product)});
     }
   },
 });
